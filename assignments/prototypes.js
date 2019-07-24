@@ -69,12 +69,7 @@ CharacterStats.prototype.takeDamage = function(hitAmt) {
     defender.takeDamage(this.attackPoints)
   }
 
-  // Humanoid.prototype.taleDmg = function(hitAmt) {
-  //   this.healthPoints -=hitAmt;
-  //   if (this.healthPoints <= 0) {
-  //     this.destroy();
-  //   }
-  // }
+  
   Humanoid.prototype.greet = function() {
    return `${this.name} offers a greeting in ${this.language}`;
  }
